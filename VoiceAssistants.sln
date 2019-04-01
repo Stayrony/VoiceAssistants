@@ -1,0 +1,38 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8446D2BC-0E6A-46AC-952F-A26753082424}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9DEC70C8-CA8A-4E3B-A022-8077553A6B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistants.Authorization", "src\VoiceAssistants.Authorization\VoiceAssistants.Authorization.csproj", "{4E50398B-4861-4DCE-A328-94A8CECB1592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistants.Common", "src\VoiceAssistants.Common\VoiceAssistants.Common.csproj", "{83079FE9-3BE0-4A12-AC16-732927BE57E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistants.Alexa", "src\VoiceAssistants.Alexa\VoiceAssistants.Alexa.csproj", "{80961B73-DC74-49B2-9838-62532D0843C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E50398B-4861-4DCE-A328-94A8CECB1592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E50398B-4861-4DCE-A328-94A8CECB1592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E50398B-4861-4DCE-A328-94A8CECB1592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E50398B-4861-4DCE-A328-94A8CECB1592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83079FE9-3BE0-4A12-AC16-732927BE57E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83079FE9-3BE0-4A12-AC16-732927BE57E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83079FE9-3BE0-4A12-AC16-732927BE57E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83079FE9-3BE0-4A12-AC16-732927BE57E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80961B73-DC74-49B2-9838-62532D0843C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80961B73-DC74-49B2-9838-62532D0843C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80961B73-DC74-49B2-9838-62532D0843C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80961B73-DC74-49B2-9838-62532D0843C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E50398B-4861-4DCE-A328-94A8CECB1592} = {8446D2BC-0E6A-46AC-952F-A26753082424}
+		{83079FE9-3BE0-4A12-AC16-732927BE57E4} = {8446D2BC-0E6A-46AC-952F-A26753082424}
+		{80961B73-DC74-49B2-9838-62532D0843C1} = {8446D2BC-0E6A-46AC-952F-A26753082424}
+	EndGlobalSection
+EndGlobal
