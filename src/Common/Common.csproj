@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,10 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Data\Requests\" />
+    <Compile Remove="Controllers\ValuesController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj" />
+    <Folder Include="Providers\" />
+    <Folder Include="Providers\Contract\" />
+    <Folder Include="Models\" />
+    <Folder Include="Options\" />
   </ItemGroup>
 </Project>
