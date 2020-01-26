@@ -1,0 +1,34 @@
+﻿@model VoiceAssistants.Authorization.Data.Requests.ExternalLoginRequest
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <section>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <!-- Tabs Titles -->
+                <!-- Icon -->
+                <div class="fadeIn first">
+                    <img src="https://crack-apk.com/wp-content/uploads/2018/11/Unicorn-Icon-Pack.png" id="icon" alt="User Icon" />
+                    <h3>Upkeepr</h3>
+                    <h3>Use a local account to log in</h3>
+                </div>
+                <!-- Login Form -->
+                <form form asp-action="ExternalLogin" method="post">
+                    <input type="email" id="login" class="fadeIn second" name="email" placeholder="login">
+                    <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
+
+                    <input value="@Model.ClientID" name="ClientID" type="hidden" />
+                    <input value="@Model.RedirectUri" name="RedirectUri" type="hidden" />
+                    <input value="@Model.ResponseType" name="ResponseType" type="hidden" />
+                    <input value="@Model.Scope" name="Scope" type="hidden" />
+                    <input value="@Model.State" name="State" type="hidden" />
+
+                    <input type="submit" class="fadeIn fourth" value="Log In">
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
